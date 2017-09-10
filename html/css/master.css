@@ -1,11 +1,19 @@
 body {
-  background: #9999ff;
-  color: #ffffcc; }
+  background: #9999ff; }
+
+#wrap {
+  width: 60em;
+  margin: 0 auto;
+  background-color: #ffffff; }
+
+#top-section li {
+  display: inline;
+  list-style: none; }
 
 h1 {
   font-size: 3em; }
 
 p {
-  font-size: 0.9em; }
+  font-size: .9em; }
 
 /*# sourceMappingURL=master.css.map */
