@@ -1,29 +1,139 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/master.css">
-    <title>Mustafa's Personal Site</title>
-  </head>
-  <body>
+    <head>
+        <title>Mustafa's portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/master.css" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div id="nav-bar">
+          <ul>
+              <li><a href="#about-section">ABOUT</a></li>
+              <li><a href="#portfolio-section">PORTFOLIO</a></li>
+              <li><a href="#contact-section">CONTACT</a></li>
+          </ul>
+        </div>
+        <div id="wrap">
+            <div id="about-section" class="section">
+                <h3>Mustafa Y Alici</h3>
+                <p>Computer programmer and web Developer</p>
+                <p>I started learning programming on my own teaching myself PHP, javascript, MySQL and jQuery.  I had learned some C++ in my past.  I did all this in my spare time. I decided to attend Skill Distillery to learn full stack Java devlopment.</p>
+                <ul>
+                    <li>Full Stack Web Development, HTML, CSS, Javascript, jQuery, XML, C++, JSON, Java</li>
+                    <li>UI Design, Front End, Back End, Root Cause Debuging, GitHub, cPanel, MS Essentials</li>
+                    <li>User Operating Systems, Windows 98 \ ME \ XP \ 2000 \ 7 \ 8 \ 10</li>
+                    <li>LAMP Servers, Linux, Apache, MySql, PHP</li>
+                    <li>Database Best Practices, Database Schema Design, DBMS</li>
+                </ul>
+            </div>
+            <div id="portfolio-section">
+                <div id="major-projects" class="section">
+                    <h2>These are major project I have worked on</h2>
+                    <ul>
+                        <li>
+                            <h3>Potpedia</h3>
+                            <div class="row">
+                                <img src="images/potpediaweb.png" alt="potpedia" class="col-3">
+                                <div class="col-9">
+                                    <p>Web Programmer for both their customer facing website and back end PHP database interface</p>
+                                    <p>Potpedia is web site where users can look for marijuana products and dispensaries. Users can search by price, location and rating.
+                                            Users also can create an account review products, add products and dispensaries to their favorites</p>
+                                    <p>Live website: <a href="http://www.potpedia.net/">Potpedia</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h3>CSFWG website</h3>
+                            <div class="row">
+                                <img src="images/CSFWGweb.png" alt="csfwg" class="col-3">
+                                <div class="col-9">
+                                    <p>Full Stack Developer for both their customer facing website & employee portal</p>
+                                    <p>This the website for Colorado Springs Fiction Writers Group.</p>
+                                    <p>Live website: <a href="http://coloradospringsfictionwritersgroup.org/home">CSFWG</a></p>
+                                    <p>My Test site for CSFWG: <a href="http://csfwgwebsite.mustdevtest.com/home">Test</a></p>
+                                    <p>GitHub repository for CSFWG: <a href="https://github.com/alicimustfa/CSFWG">GitHub</a></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="minor-projects" class="section">
+                    <h2>These are personal project I have worked on</h2>
+                    <div class="row">
+                        <div class="col-3">
+                            <h3>My quote Machine</h3>
+                            <img src="images/quoteMachine.png" alt="website picture">
+                                <p>
+                                    This a simple site that generates a random quote using a API
+                                    and allows some one to share it on their twitter feed. This
+                                    is poject I did to learn using API
+                                </p>
+                            <p>Live site:<a href="http://quotemachine.mustdevtest.com/">Quote Machine</a></p>
+                        </div>
+                        <div class="col-3">
+                            <h3>Local Weather</h3>
+                            <img src="images/weatherApp.png" alt="website picture">
+                            <p>
+                                This is another simple site that shows local weather. this was done to learn more the use of more API
+                            </p>
+                            <p>Live site:<a href="http://weatherapp.mustdevtest.com/">Weather App</a></p>
+                        </div>
+                        <div class="col-3">
+                            <h3>Wikipedia Viewer</h3>
+                            <img src="images/wikiview.png" alt="website picture">
+                            <p>
+                                This site uses the Wiki pedia API to find articles
+                            </p>
+                            <p>Live site:<a href="http://wikipediaviewer.mustdevtest.com/">Weather App</a></p>
+                        </div>
+                        <div class="col-3">
+                            <h3>Digital Calculator</h3>
+                            <img src="images/calculator.png" alt="website picture">
+                            <p>
+                                This site has basic fully functional calculator
+                            </p>
+                            <p>Live site:<a href="https://codepen.io/clodax/full/JJGbdM/">Calculator</a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <h3>Pomodoro clock</h3>
+                            <img src="images/pomodoro.png" alt="website picture">
+                            <p>This is a pomodoro clock where you can adjuct times</p>
+                            <p>Live site:<a href="https://codepen.io/clodax/full/owXqre/">Pomodoro Clock</a></p>
+                        </div>
+                        <div class="col-3">
+                            <h3>Tic-Tac-Toe game</h3>
+                            <img src="images/tictactoe.png" alt="website picture">
+                            <p>This is tic-tac-toe that should be unbeatable I used the minmax algorithm for the AI</p>
+                            <p>Live site:<a href="https://codepen.io/clodax/full/eRvNyx/">The Game</a></p>
+                        </div>
+                        <div class="col-3">
+                            <h3>Simon Says Game</h3>
+                            <img src="images/simon.png" alt="website picture">
+                            <p>This is a Simon says game like the one from the 80's</p>
+                            <p>Live site:<a href="https://codepen.io/clodax/full/GEMQXa/">Simon Says</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact-section" class="section">
+                <ul>
+                    <li>Email: <a href="mailto:alicimustafadev@yahoo.com">alicimustafadev@yahoo.com</a></li>
+                    <li>Linkedin: <a href="https://www.linkedin.com/in/mustafa-alici-448906118/">https://www.linkedin.com/in/mustafa-alici-448906118/</a></li>
+                    <li>Github: <a href="https://github.com/alicimustafa">https://github.com/alicimustafa</a></li>
+                    <li><a href="mustafaAliciResume.pdf" target="_blank">My Resume</a></li>
+                </ul>
+            </div>
+        </div>
 
-    <div id="wrap">
-      <div id="top-section">
-        <h1>Welcome to my Personal Website</h1>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="labs.html">Labs</a></li>
-        </ul>
-      </div>
-      <div id="main-section">
-
-      </div>
-    </div>
-  </body>
+    </body>
 </html>

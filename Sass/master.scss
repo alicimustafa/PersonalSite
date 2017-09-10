@@ -1,28 +1,102 @@
+// sass variables
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
 
 body {
-  background: #9999ff;
+  background-image: radial-gradient(circle at center, #ccc , #666, #1a1a1a);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#wrap {
-  width: 60em;
-  margin: 0 auto;
-  background-color: #ffffff;
+img {
+  width: 100%;
+  height: auto;
 }
 
-#top-section {
-  li {
-    display: inline;
-    list-style: none;
+.section {
+  border: 2px solid #000;
+  border-radius: 10px;
+  clear: both;
+  margin: 10px;
+  background-color: #f2f2f2;
+}
+
+.row {
+  width: 100%;
+  clear: both;
+}
+//collums for grid
+.col-1 { width: 8.33%;}
+.col-2 { width: 16.66%;}
+.col-3 { width: 25%;}
+.col-4 { width: 33.33%;}
+.col-5 { width: 41.66%;}
+.col-6 { width: 50%;}
+.col-7 { width: 58.33%;}
+.col-8 { width: 66.66;}
+.col-9 { width: 75%;}
+.col-10 { width: 83.33%;}
+.col-11 { width: 91.66%;}
+.col-12 { width: 100%;}
+// aplies to all collums
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  // aplies only to phones
+  @media only screen and (max-width: 768px) {
+    width: 100%;
   }
 }
 
-#main-section {
-
+#nav-bar {
+  height: 50px;
+  width: 100%;
+  background-color: #d9d9d9;
+  position: fixed;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+  top: 0;
+  ul {
+    margin: 10px;
+    padding: 5px;
+  }
+  // nav buttons style
+  li {
+    list-style: none;
+    display: inline;
+    font-weight: 900;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: #e6e600;
+    box-shadow: 2px 2px;
+    cursor: pointer;
+    @media only screen and (max-width: 768){
+      font-size: 14px;
+    }
+    &:hover {
+      background-color: #ffe6e6;
+    }
+    a {
+      &:link {
+        text-decoration: none;
+        color: #000;
+      }
+      &:visited {
+        color: #000;
+      }
+    }
+  }
 }
-h1 {
-  font-size: 3em;
-}
-
-p {
-  font-size: .9em;
+#wrap {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #ccccb3;
+  margin-top: 42px;
+  @media only screen and (max-width: 768){
+    width: 100%;
+  }
 }
