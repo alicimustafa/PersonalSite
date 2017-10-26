@@ -23,6 +23,13 @@ img {
   background-color: #f2f2f2;
 }
 
+.open-section{
+  display: inline-block;
+}
+.closed-section{
+  display: none;
+}
+
 .row {
   width: 100%;
   clear: both;
