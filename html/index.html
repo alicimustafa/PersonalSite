@@ -18,7 +18,6 @@
       <ul>
         <li data-section="about-section" class="select">About</li>
         <li data-section="portfolio-section">Portfolio</li>
-        <li data-section="contact-section">Contact</li>
       </ul>
       <div class="closed-section" id="nav-hamburger">
         &#9776;
@@ -28,12 +27,18 @@
       <div id="about-section" class="open-section section">
         <div class="section">
 
-          <h3>Mustafa Y Alici</h3>
-          <div class="row">
-            <div id="discription-section" class="col-9">
-              <p>Computer programmer and web Developer</p>
-              <p>I started learning programming on my own teaching myself PHP, javascript, MySQL and jQuery.  I had learned some C++ in my past.  I did all this in my spare time. I decided to attend Skill Distillery to learn full stack Java devlopment.</p>
-
+        <h3>Mustafa Y Alici</h3>
+        <div class="row">
+          <div id="discription-section" class="col-9">
+            <p>Computer programmer and web Developer</p>
+            <p>I am accomplished Full Stack Developer experienced in the full life cycle including requirements, design, development, and deployment. I trained at the Skill Distillery and earned a Java certification. I have full competency in Java SE, Java EE, TDD practices with JUnit, PHP, Javascript, MySQL, jQuery,  Angular. </p>
+              <ul>
+                <li>Email: <a href="mailto:alicimustafadev@yahoo.com">alicimustafadev@yahoo.com</a></li>
+                <li>Linkedin: <a href="https://www.linkedin.com/in/mustafa-alici-448906118/">https://www.linkedin.com/in/mustafa-alici-448906118/</a></li>
+                <li>Github: <a href="https://github.com/alicimustafa">https://github.com/alicimustafa</a></li>
+                <li><a href="mustafaResume.pdf" target="_blank">My Resume</a></li>
+              </ul>
+  
             </div>
             <div id="picture-section" class="col-3">
               <a href="https://www.youracclaim.com/badges/3a4a9cf0-beda-4d2f-88a2-90f56853c71c"><img src="images/oracle_associate.png" alt=""></a>
@@ -42,14 +47,14 @@
         </div>
           <div class="section" id="technology-section">
             <div class="row">
-              <div class="col-6" id="technology-discriptions">
+              <div class="col-6">
                 <ul>
-                    <li>Web Development, HTML, CSS, Javascript, jQuery, XML, JSON</li>
-                    <li>Java SE, EE, Spring, JDBC , JPA, JSP, Maven, Gradle, Tomcat</li>
-                    <li>UI Design, Front End, Back End, Root Cause Debuging, GitHub, cPanel</li>
-                    <li>User Operating Systems, Windows 98 \ ME \ XP \ 2000 \ 7 \ 8 \ 10, Mac OS</li>
-                    <li>LAMP Servers, Linux, Apache, MySql, PHP</li>
-                    <li>Database Best Practices, Database Schema Design, DBMS</li>
+                  <li>HTML, CSS, Javascript, jQuery, XML, JSON</li>
+                  <li>Java SE, EE, Spring, JDBC , JPA, JSP, </li>
+                  <li>Maven, Gradle, Tomcat, AWS, GitHub</li>
+                  <li>UI Design, Front End, Back End, Root Cause Debuging</li>
+                  <li>LAMP Servers, Linux, Apache, MySql, PHP</li>
+                  <li>Database Best Practices, Database Schema Design, DBMS</li>
                 </ul>
               </div>
               <div class="col-6" id="technology-picture">
@@ -61,56 +66,114 @@
           </div>
 
       </div>
-
+      
       <div id="portfolio-section" class="closed-section section">
-          <div id="major-projects" class="section">
-              <h2>These are major project I have worked on</h2>
-              <ul>
-                  <li>
+          <div id="java-full-stack" class="section">
+              <h2>Java Full Stack Projects</h2>
+              <div class="row">
+                  <div class="col-3">
+                    <h3>Presidents</h3>
+                    <img src="images/presidents.png" alt="website picture">
+                    <p>
+                      This a group project show list of presidents.  You can search by party affiliation. Each presdident 
+                      list terms in office and an interesting fact about each of them
+                    </p>
+                    <p>
+                      This was a group project using Java EE edition with JSP and JDBC. There is MySql dataBase to persist data 
+                    </p>
+                    <p>Live site:<a href="http://13.59.25.200:8080/USPresidentsProject/">Presidents</a></p>
+                    <p>repository <a href="https://github.com/alicimustafa/USPresidentsProject">Github</a></p>
+                  </div>
+                <div class="col-3">
+                  <h3>Party Picker</h3>
+                  <img src="images/partypicker.png" alt="website picture">
+                  <p>This a simple Java Spring C.R.U.D. You can create Adventurers and add them to
+                    the part.  You can edit their gear and create new gear
+                  </p>
+                  <p>This project used spring MVC with maven and JSP.  There is a MySql dataBase to persist the data</p>
+                  <p>Live site:<a href="http://13.59.25.200:8080/PartyPicker">Party Picker</a></p>
+                  <p>repository <a href="https://github.com/alicimustafa/MVCCRUDProject">Github</a></p>
+                </div>
+                <div class="col-3">
+                    <h3>Cater To You</h3>
+                    <img src="images/caterToYou.png" alt="website picture">
+                    <p>
+                      This Group mid-term Project for Skill Distillery. This site allows users to Catering menu from choice of venders.
+                      It allows vendors to add menu options for user to pick from. Users and venders have diferent based on login. 
+                      User get itemised list of product and a order history.
+                    </p>
+                    <p>
+                      This project was builg Using Java Spring MVC, JSP, JPA. With a MySql dataBase to persist the data.
+                      We also used some javascript. We used Trello keep track of task and used agile practice. We had morning
+                      stand ups and evening stand ups. 
+                    </p>
+                    <p>Live site:<a href="http://13.59.25.200:8080/CaterToYouMVC/">Cater To You</a></p>
+                    <p>repository <a href="https://github.com/alicimustafa/CaterToYou">Github</a></p>
+                </div>
+                <div class="col-3">
+                    <h3>Travel Tracker</h3>
+                    <img src="images/travel.png" alt="website picture">
+                    <p>
+                      This app allows you to create users add destinations and event at each destinaton.
+                      You can perfome full C.R.U.D. on event and destinations. This keeps track of cost of each
+                      destinaton and event.
+                    </p>
+                    <p>
+                      This is built on Java Spring MVC, JPA, MySql for the back end. This uses Angular for the front end
+                    </p>
+                  
+                    <p>Live site:<a href="http://13.59.25.200:8080/MVCRestTravel">Travel Tracker</a></p>
+                    <p>repository <a href="https://github.com/alicimustafa/EventTracker">Github</a></p>
+                </div>
+              </div>
+            </div>
+          <div id="php-projects" class="section">
+              <h2>These are Full stack PHP projects</h2>
+                <div class="row">
+                    <div class="col-3">
                       <h3>Potpedia</h3>
-                      <div class="row">
-                          <img src="images/potpediaweb.png" alt="potpedia" class="col-3">
-                          <div class="col-9">
-                              <p>Web Programmer for both their customer facing website and back end PHP database interface</p>
-                              <p>Potpedia is web site where users can look for marijuana products and dispensaries. Users can search by price, location and rating.
-                                      Users also can create an account review products, add products and dispensaries to their favorites</p>
-                              <p>Live website: <a href="http://www.potpedia.net/">Potpedia</a></p>
-                          </div>
-                      </div>
-                  </li>
-                  <li>
-                      <h3>CSFWG website</h3>
-                      <div class="row">
-                          <img src="images/CSFWGweb.png" alt="csfwg" class="col-3">
-                          <div class="col-9">
-                              <p>Full Stack Developer for both their customer facing website & employee portal</p>
-                              <p>This the website for Colorado Springs Fiction Writers Group.</p>
-                              <p>Live website: <a href="http://coloradospringsfictionwritersgroup.org/home">CSFWG</a></p>
-                              <p>My Test site for CSFWG: <a href="http://csfwgwebsite.mustdevtest.com/home">Test</a></p>
-                              <p>GitHub repository for CSFWG: <a href="https://github.com/alicimustfa/CSFWG">GitHub</a></p>
-                          </div>
-                      </div>
-                  </li>
-              </ul>
+                      <img src="images/potpediaweb.png" alt="website picture">
+                      <p>
+                          <p>
+                            Web Programmer for both their customer facing website and back end PHP database interface
+                            Potpedia is web site where users can look for marijuana products and dispensaries. Users can search by price, location and rating.
+                            Users also can create an account review products, add products and dispensaries to their favorites
+                          </p>
+                      </p>
+                      <p>Live website: <a href="http://www.potpedia.net/">Potpedia</a></p>
+                    </div>
+                    <div class="col-3">
+                        <h3>CSFWG website</h3>
+                        <img src="images/CSFWGweb.png" alt="website picture">
+                        <p>
+                          Full Stack Developer for both their customer facing website & employee portal
+                          This the website for Colorado Springs Fiction Writers Group.
+                        </p>
+                        <p>Live website: <a href="http://coloradospringsfictionwritersgroup.org/home">CSFWG</a></p>
+                        <p>My Test site for CSFWG: <a href="http://csfwgwebsite.mustdevtest.com/home">Test</a></p>
+                        <p>GitHub repository for CSFWG: <a href="https://github.com/alicimustfa/CSFWG">GitHub</a></p>
+
+                    </div>  
+                </div>
           </div>
-          <div id="minor-projects" class="section">
-              <h2>These are personal project I have worked on</h2>
+          <div id="front-end-projects" class="section">
+              <h2>These are Front end only projects</h2>
               <div class="row">
                   <div class="col-3">
                       <h3>My quote Machine</h3>
                       <img src="images/quoteMachine.png" alt="website picture">
-                          <p>
-                              This a simple site that generates a random quote using a API
-                              and allows some one to share it on their twitter feed. This
-                              is poject I did to learn using API
-                          </p>
+                      <p>
+                        This a simple site that generates a random quote using a API
+                        and allows some one to share it on their twitter feed. This
+                        is poject I did to learn using API
+                      </p>
                       <p>Live site:<a href="http://quotemachine.mustdevtest.com/">Quote Machine</a></p>
                   </div>
                   <div class="col-3">
                       <h3>Local Weather</h3>
                       <img src="images/weatherApp.png" alt="website picture">
                       <p>
-                          This is another simple site that shows local weather. this was done to learn more the use of more API
+                        This is another simple site that shows local weather. this was done to learn more the use of more API
                       </p>
                       <p>Live site:<a href="http://weatherapp.mustdevtest.com/">Weather App</a></p>
                   </div>
@@ -118,7 +181,7 @@
                       <h3>Wikipedia Viewer</h3>
                       <img src="images/wikiview.png" alt="website picture">
                       <p>
-                          This site uses the Wiki pedia API to find articles
+                        This site uses the Wiki pedia API to find articles
                       </p>
                       <p>Live site:<a href="http://wikipediaviewer.mustdevtest.com/">Weather App</a></p>
                   </div>
@@ -126,7 +189,7 @@
                       <h3>Digital Calculator</h3>
                       <img src="images/calculator.png" alt="website picture">
                       <p>
-                          This site has basic fully functional calculator
+                        This site has basic fully functional calculator
                       </p>
                       <p>Live site:<a href="https://codepen.io/clodax/full/JJGbdM/">Calculator</a></p>
                   </div>
@@ -150,32 +213,16 @@
                       <p>This is a Simon says game like the one from the 80's</p>
                       <p>Live site:<a href="https://codepen.io/clodax/full/GEMQXa/">Simon Says</a></p>
                   </div>
-                  <div class="col-3">
-                      <h3>Party Picker</h3>
-                      <img src="images/partypicker.png" alt="website picture">
-                      <p>This a simple Java Spring C.R.U.D.</p>
-                      <p>Live site:<a href="http://13.59.25.200:8080/PartyPicker">Party Picker</a></p>
-                  </div>
+                  
               </div>
               <div class="row">
-                <div class="col-3">
-                    <h3>Presidents</h3>
-                    <img src="images/presidents.png" alt="website picture">
-                    <p>This a group project show list of presidents</p>
-                    <p>Live site:<a href="http://13.59.25.200:8080/USPresidentsProject/">Presidents</a></p>
-                </div>
+                
               </div>
           </div>
+
       </div>
 
-      <div id="contact-section" class="closed-section section">
-          <ul>
-              <li>Email: <a href="mailto:alicimustafadev@yahoo.com">alicimustafadev@yahoo.com</a></li>
-              <li>Linkedin: <a href="https://www.linkedin.com/in/mustafa-alici-448906118/">https://www.linkedin.com/in/mustafa-alici-448906118/</a></li>
-              <li>Github: <a href="https://github.com/alicimustafa">https://github.com/alicimustafa</a></li>
-              <li><a href="mustafaAliciResume.pdf" target="_blank">My Resume</a></li>
-          </ul>
-      </div>
+
     </div>
   </body>
 </html>
